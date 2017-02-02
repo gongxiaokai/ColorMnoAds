@@ -45,9 +45,12 @@
     CGFloat labrgbY = CGRectGetMaxY(labelox.frame);
     UILabel *labelrgb = [[UILabel alloc]initWithFrame:CGRectMake(labrgbX,labrgbY,labrgbWidth,labrgbWidth/4)];
     labelrgb.textAlignment = NSTextAlignmentCenter;
+    labelrgb.adjustsFontSizeToFitWidth = YES;
+
     labelrgb.font = [UIFont systemFontOfSize:18];
     [self.view addSubview:labelrgb];
-    
+    self.colorRgbStr = @"255,255,255";
+
     WSColorImageView *ws = [[WSColorImageView alloc]initWithFrame:CGRectMake(colorX,colorY,colorWidth,colorWidth)];
     [self.view addSubview:ws];
     ws.currentColorBlock = ^(UIColor *color,NSString *rgbStr){

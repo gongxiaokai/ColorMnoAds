@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="478" height="133"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="478" height="132"/>
+                <rect key="frame" x="0.0" y="0.0" width="478" height="132.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bwA-TT-joF" userLabel="description">
@@ -30,10 +30,9 @@
                             <constraint firstAttribute="width" constant="2" id="kfq-yd-d0z"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-RC-QGb">
-                        <rect key="frame" x="29" y="68" width="21" height="63"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="a1y-RC-QGb">
+                        <rect key="frame" x="29" y="68" width="21" height="66.5"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="63" id="HhO-OL-7Gl"/>
                             <constraint firstAttribute="width" constant="21" id="eKY-ju-BiZ"/>
                         </constraints>
                         <attributedString key="attributedText">
@@ -83,6 +82,7 @@
                     <constraint firstItem="xuw-qn-uLy" firstAttribute="leading" secondItem="2bh-9z-poJ" secondAttribute="trailing" constant="10" id="4LX-ap-7tR"/>
                     <constraint firstItem="2bh-9z-poJ" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.11" id="6Ma-yz-taX"/>
                     <constraint firstItem="a1y-RC-QGb" firstAttribute="top" secondItem="bwA-TT-joF" secondAttribute="bottom" constant="10" id="8sc-qk-NeJ"/>
+                    <constraint firstItem="a1y-RC-QGb" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="G5p-ok-KYA"/>
                     <constraint firstAttribute="trailing" secondItem="xuw-qn-uLy" secondAttribute="trailing" id="IDl-aH-5n6"/>
                     <constraint firstItem="dVV-ij-kck" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.11" id="JwI-Fz-lA5"/>
                     <constraint firstItem="dVV-ij-kck" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.33" id="M8P-E3-PRk"/>
