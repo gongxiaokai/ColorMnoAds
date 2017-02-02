@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Fav" representedClassName="Fav" syncable="YES" codeGenerationType="class">
+        <attribute name="colorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorOX" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorRGB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="isBuy" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Fav" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="User" positionX="-63" positionY="9" width="128" height="60"/>
+    </elements>
+</model>

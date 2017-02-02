@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>plistName</key>
+		<string>red</string>
+		<key>name</key>
+		<string>红色系</string>
+		<key>descriptionName</key>
+		<string>--是一种激奋的色彩。</string>
+		<key>detail</key>
+		<string>        红色--是一种激奋的色彩。刺激效果，能使人产生冲动，愤怒，热情，活力的感觉。</string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>orange</string>
+		<key>name</key>
+		<string>橙色系</string>
+		<key>descriptionName</key>
+		<string>--也是一种激奋的色彩。</string>
+		<key>detail</key>
+		<string>        橙色--也是一种激奋的色彩，具有轻快，欢欣，热烈，温馨，时尚的效果。</string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>yellow</string>
+		<key>name</key>
+		<string>黄色系</string>
+		<key>descriptionName</key>
+		<string>--具有快乐，希望，智慧和轻快的个性。</string>
+		<key>detail</key>
+		<string>        黄色--具有快乐，希望，智慧和轻快的个性，它的明度最高。                    </string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>green</string>
+		<key>name</key>
+		<string>绿色系</string>
+		<key>descriptionName</key>
+		<string>--介于冷暖两种色彩的中间。</string>
+		<key>detail</key>
+		<string>        绿色--介于冷暖两种色彩的中间。显得和睦，宁静，健康，安全的感觉。它和金黄，淡白搭配，可以产生优雅，舒适的气氛。</string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>blue</string>
+		<key>name</key>
+		<string>青色系</string>
+		<key>descriptionName</key>
+		<string>--最具凉爽，清新，专业的色彩。</string>
+		<key>detail</key>
+		<string>        青色--最具凉爽，清新，专业的色彩。它和白色混合，能体现柔顺，淡雅，浪漫的气氛。</string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>purple</string>
+		<key>name</key>
+		<string>紫色系</string>
+		<key>descriptionName</key>
+		<string>--波长最短的可见光波。</string>
+		<key>detail</key>
+		<string>        紫色--波长最短的可见光波。紫色是非知觉的色，它美丽又神秘，给人深刻的印象，它既富有威胁性，又富有鼓舞性。紫色象征虔诚的色相，当光明与理解照亮了蒙昧的虔诚之色时，优美可爱的晕色就会使人心醉！</string>
+	</dict>
+	<dict>
+		<key>plistName</key>
+		<string>neutral</string>
+		<key>name</key>
+		<string>无彩色</string>
+		<key>descriptionName</key>
+		<string>--指除了色彩以外的其他颜色。</string>
+		<key>detail</key>
+		<string>        无彩色--指除了色彩以外的其他颜色，明度从0变化到100，而彩度很小接近于0。</string>
+	</dict>
+</array>
+</plist>
