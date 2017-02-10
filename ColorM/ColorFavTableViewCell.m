@@ -49,10 +49,14 @@
     CGFloat r = [array[0] floatValue];
     CGFloat g = [array[1] floatValue];
     CGFloat b = [array[2] floatValue];
+    
+    
     UIColor *textColor = [UIColor colorWithRed: fabsf(r-255)/255.0f green:fabsf(g-255)/255.0f blue:fabsf(b-255)/255.0f alpha:1];
     self.oxLab.textColor = textColor;
     self.rgbLab.textColor = textColor;
     self.favTimeLab.textColor = textColor;
+    
+    
     UIColor *color = [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1];
 
     self.contentView.backgroundColor = color;
